@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="https://unpkg.com/@atlaskit/css-reset@2.0.0/dist/bundle.css" media="all">
+{% endblock %}
+
+{% block body %}
+        <section id="content" class="ac-content">
+            <h1>Hello World</h1>
+            <p>{{dt}}</p>
+        </section>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="https://connect-cdn.atl-paas.net/all-debug.js"></script>
+{% endblock %}
